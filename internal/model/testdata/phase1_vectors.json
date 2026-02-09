@@ -1,0 +1,33 @@
+{
+  "actor_ids_unsorted": ["0f", "aa", "0010", "10", "00"],
+  "actor_ids_sorted": ["00", "0010", "0f", "10", "aa"],
+  "change_hashes_unsorted": [
+    "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+    "0000000000000000000000000000000000000000000000000000000000000002",
+    "7f00000000000000000000000000000000000000000000000000000000000000",
+    "0000000000000000000000000000000000000000000000000000000000000001"
+  ],
+  "change_hashes_sorted": [
+    "0000000000000000000000000000000000000000000000000000000000000001",
+    "0000000000000000000000000000000000000000000000000000000000000002",
+    "7f00000000000000000000000000000000000000000000000000000000000000",
+    "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  ],
+  "stream_hash_vector": {
+    "actor_id": "aabbcc",
+    "op_id": {"counter": 7, "actor": 3},
+    "obj_id": {"counter": 42, "actor": 9, "root": false},
+    "text": "hello",
+    "bool": true,
+    "int": -99,
+    "expected": "c0c0b59f0a4a5679915e1ea5e6c533cbfac86b5e306ee90d9779448b41ce19c8"
+  },
+  "map_hash_vector": {
+    "pairs": {
+      "z": "last",
+      "a": "first",
+      "m": "middle"
+    },
+    "expected": "6c259b60a1da3d62d9bb8272d77ee3a0ccff577b74e02b9ba5398a84663d48e8"
+  }
+}

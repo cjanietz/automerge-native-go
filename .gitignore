@@ -1,0 +1,32 @@
+# Go binaries and build outputs
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test binaries and coverage
+*.test
+*.out
+coverage.out
+coverage.txt
+
+# Bench/profile artifacts
+*.prof
+*.pprof
+cpu.out
+mem.out
+
+# Module/workspace files
+go.work
+go.work.sum
+
+# Local env files
+.env
+.env.*
+
+# Editor/OS
+.DS_Store
+.vscode/
+.idea/
