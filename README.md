@@ -82,4 +82,4 @@ go test ./automerge -run '^$' -bench 'Benchmark(LoadSave|ApplyMerge|TextSplice|S
 
 ## License
 
-License information is currently not finalized in this module directory.
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
